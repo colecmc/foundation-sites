@@ -106,6 +106,16 @@ Motion UI includes more than two dozen built-in transition classes. They can be 
 @include motion-ui-transitions;
 ```
 
+To show on enter, use the mui-enter, mui-enter-active and one transition class, such as fade-in.
+```html
+<img src="assets/img/generic/voyager.jpg" class="mui-enter mui-enter-active fade-in">
+```
+
+To hide on leave, use the mui-leave, mui-leave-active and one transition class, such as fade-out.
+```html
+<img src="assets/img/generic/voyager.jpg" class="mui-leave mui-leave-active fade-out">
+```
+
 <div>
   <select name="docs-transitions" class="docs-transitions">
     <optgroup label="Slide">
